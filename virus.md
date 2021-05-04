@@ -25,3 +25,14 @@ exe> /home/rayui/test.exe(產生的檔案類型及位置)
 接著模擬受害者點選到網頁並下載木馬程式
 (此部分使用的是社交工程 在此就跳過社交工程的細節假設受害者以上鉤 避免方法)
 要注意的還有攻擊者可以透過在網頁中寫惡意程式並不需要下載 甚至在mail中就可以寫入惡意程式
+這部份可以透過教育訓練避免點擊可疑的內容 或是可以藉由DMZ在DMZ區收件
+![9](https://user-images.githubusercontent.com/49279418/117021915-5c145480-ad2a-11eb-8ad3-48241b38a565.png)
+
+此時在攻擊端做監聽的動作 此時若有人點擊惡意程式就可以成功連結到受害者(用screenshot來證明確實連接成功)
+並可以透過shell指令來進入被害者的指令列來執行惡意動作
+![10](https://user-images.githubusercontent.com/49279418/117023051-54a17b00-ad2b-11eb-8314-8e871c556bc8.png)
+
+此時若受害者想要阻止此連線可以透過netstat指令查看當前連線 或是使用其他網路監控程式如wireshark都可以看到有異常連線
+並對照PID(使用tasklist指令)就可以找出是哪個程式在執行此動作並關閉
+![11](https://user-images.githubusercontent.com/49279418/117024206-5d468100-ad2c-11eb-98ee-50ebd1dd99e8.png)
+![12](https://user-images.githubusercontent.com/49279418/117024376-8404b780-ad2c-11eb-8c60-056c100bc121.png)
