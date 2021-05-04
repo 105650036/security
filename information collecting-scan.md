@@ -25,7 +25,7 @@ nmap, zenmap
 確實有被找到 找到標的後就可以開始掃描
 ![2](https://user-images.githubusercontent.com/49279418/117001943-8871a600-ad15-11eb-89f5-d2e588e85c4a.png)
 
-使用nmap -sV -O -A -p- 192.168.2.104 指令去掃描目標位址 (以下為部分結果)
+使用nmap -sV -O -A -p- 192.168.2.104 指令去掃描目標位址 (以下為部分結果)(若使用netcraft可以避免被發現)
 (-sV -O...等為可調用選項 通常越多越吵雜越容易被發現 真實世界的攻擊可能更加安靜 更不易被察覺)
 ![3](https://user-images.githubusercontent.com/49279418/117003858-f7e89500-ad17-11eb-85fc-f91caa722812.png)
 ![4](https://user-images.githubusercontent.com/49279418/117003867-fa4aef00-ad17-11eb-9e94-21af86e81859.png)
