@@ -1,15 +1,15 @@
 首先選定使用工具有以下可以使用
 nmap, zenmap 
-sparta
-owasp zap
-nessus
-wmap
-nmap vulnscan 
-arachni
-openvas
-wacsan
-snmp-check
-sslscan
+,sparta
+,owasp zap
+,nessus
+,wmap
+,nmap vulnscan 
+,arachni
+,openvas
+,wacsan
+,snmp-check
+,sslscan
 
 在此我們以nmap(其中zenmap為nmap的UI版本)為例(其他工具流程大致相同 只是能找到的結果有所不同)
 掃描有兩種可能 一種是來自內部的滲透測試 一種是來自外部
